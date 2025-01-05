@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Search and Reviews</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MovieMouse</h1>
+  </header>
+  <main>
+    <section id="search">
+      <h2>Search for a Movie</h2>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Enter movie title..." required>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+    <section id="movie-details">
+      <h2>Movie Details</h2>
+      <div id="movie-container"></div>
+    </section>
+    <section id="reviews">
+      <h2>User Reviews</h2>
+      <div id="reviews-container"></div>
+    </section>
+    <section id="user-comments">
+      <h2>Leave a Comment</h2>
+      <form id="comment-form">
+        <input type="text" id="user-name" placeholder="Your Name" required>
+        <input type="text" id="user-id" placeholder="Your ID" required>
+        <textarea id="comment-text" placeholder="Write your comment here..." required></textarea>
+        <button type="submit">Submit Comment</button>
+      </form>
+      <div id="comments-container"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
